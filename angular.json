@@ -23,9 +23,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/leaflet/leaflet.css",
+              "./node_modules/leaflet-velocity/dist/leaflet-velocity.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/leaflet/leaflet.js",
+              "./node_modules/leaflet-velocity/dist/leaflet-velocity.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "7931ee2f-fdca-4673-9623-d5687ded70a0"
   }
 }
